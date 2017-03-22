@@ -12,9 +12,11 @@ The Crossfade Carousel component accepts a variety of props:
 - width - the width in px of the images
 - images - An array of images in the following format:
 
+```
 [
   { image: require('path/to/image.jpg') }
 ]
+```
 
 Each array item has been left as an object so that it can potentially be extended to include such things as an image caption, etc.
 
